@@ -1,10 +1,21 @@
 
+
+
 // User input
 let name = prompt("A name:");
 console.log(name);
+let adj = prompt("An adj:");
+let noun = prompt("A noun:");
 
-name = prompt("Another name:");
-console.log(name);
 
-name = "Clay";
-console.log(name);
+
+// Computer Output
+function makeCard() {
+  console.log("Dear " + name + ",");
+  console.log("You are as " + adj + " as a " + noun + ".");
+
+}
+
+makeCard();
+
+
